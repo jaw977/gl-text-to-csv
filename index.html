@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+      .hidden { visibility: hidden; }
+    </style>
+    <title>Convert GL from text to CSV</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Convert GL from text to CSV</h1>
+      Select text GL file: <br>
+      <input type="file" onchange="upload(event)">
+      <br>
+      <a id="download-link" href="#" role="button" class="hidden">Download GL CSV file</a>
+      <br><br>
+      <a href="https://github.com/jaw977/gl-text-to-csv">Source Code</a>
+      <br><br>
+      <a href="LICENSE.txt">MIT License</a>
+      <script src="app.js"></script>
+    </main>
+  </body>
+
+</html>
