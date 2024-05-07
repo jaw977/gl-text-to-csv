@@ -9,7 +9,7 @@ async function upload(event) {
   const blob = new Blob([content], { type: "text/csv" });
   const url = window.URL.createObjectURL(blob);
   link.href = url;
-  link.download = "Eastview-GL.csv";
+  link.download = "GL.csv";
   link.classList.remove('hidden');
 }
 
